@@ -1,16 +1,9 @@
-# Godot 4+ specific ignores
-.godot/
-.nomedia
-
-# Godot-specific ignores
 .import/
-export.cfg
-export_credentials.cfg
+.godot/
 
-# Imported translations (automatically generated from CSV files)
-*.translation
+# AeroBeat Dependencies (Managed by setup_dev.py)
+.testbed/addons/
 
-# Mono-specific ignores
-.mono/
-data_*/
-mono_crash.*.json
+# SECURITY: Block scripts in asset packs (RCE Prevention)
+*.gd
+*.cs
